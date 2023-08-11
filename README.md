@@ -23,7 +23,7 @@ https://github.com/ultralytics/ultralytics 下载最新的检测模型：Detecti
 > python test_openvino.py
 
 ## 展示
-<img src="./val/000000075910.jpg" >
+<img src="./output/000000075910.jpg" >
 
 
 
