@@ -27,11 +27,11 @@ https://github.com/ultralytics/ultralytics 下载最新的检测模型：Detecti
 > python test_openvino.py
 
 ## 展示
-CPU ：i5-1035G1
+### CPU ：i5-1035G1
 FP32 Inference Time: 108.4091329574585 ms Single Image  /   FPS: 9.224315080468509 FPS Single Image
 <img src="./output/000000075910_FP32.jpg" >
 INT8 Inference Time: 40.07129669189453 ms Single Image   /   FPS: 24.955518851534347 FPS Single Image
-<img src="./output000000075910_INT8.jpg" >
+<img src="./output/000000075910_INT8.jpg" >
 
 
 
