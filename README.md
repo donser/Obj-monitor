@@ -11,9 +11,13 @@ https://github.com/ultralytics/ultralytics 下载最新的检测模型：Detecti
 > python pytorch_to_onnx.py
 
 ## 模型转为openvino（float、half、FP32、FP16）
+### FP32
 > mo --progress --input_shape [1,3,640,640] --input_model models/yolov8s.onnx --output_dir models/yolov8s_FP32 --data_type FP32
+### float
 > mo --progress --input_shape [1,3,640,640] --input_model models/yolov8s.onnx --output_dir models/yolov8s_float --data_type float
+### half
 > mo --progress --input_shape [1,3,640,640] --input_model models/yolov8s.onnx --output_dir models/yolov8s_half --data_type half
+### FP16
 > mo --progress --input_shape [1,3,640,640] --input_model models/yolov8s.onnx --output_dir models/yolov8s_FP16 --data_type FP16
 
 ## openvino模型转为int8
